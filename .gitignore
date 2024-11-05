@@ -1,0 +1,11 @@
+node_modules/
+
+.vscode/
+
+src/styles/css/
+
+src/scripts/js/
+
+src/assets/
+
+MYNOTES.md

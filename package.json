@@ -1,0 +1,16 @@
+{
+  "name": "web-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "c-scss": "sass --watch src/styles/scss/styles.scss:src/styles/css/styles.css",
+    "tsc-w": "tsc -p tsconfig.json --watch",
+    "all-w": "concurrently \"tsc -p tsconfig.json --watch\" \"sass --watch src/styles/scss:src/styles/css\"",
+    "build": "tsc -p tsconfig.json && sass src/styles/scss:src/styles/css"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "sass": "^1.80.6",
+    "typescript": "^4.9.5"
+  }
+}

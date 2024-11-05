@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "outDir": "src/scripts/js", // Specifies where to save JavaScript output
+      "rootDir": "src/scripts/ts", // Specifies the folder where the TypeScript files are located
+      "target": "es6", // Set to ES6 or any other ES level you need
+      "module": "commonjs" // Specifies the module type for Node.js (optional)
+    }
+}
